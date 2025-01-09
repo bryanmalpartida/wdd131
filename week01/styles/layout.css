@@ -1,7 +1,7 @@
 /*WEBSITE GRID STRUCTURE*/
 
 body {
-    display: grid;
+    display:grid;
     height: 100vh;
     grid-template: auto 1fr auto / auto 1fr auto;
     background-color:#f0f0f0;
@@ -46,7 +46,7 @@ nav {
 }
 .navigation {
 	list-style: none;
-	display: flex;
+	display:flex;
 	flex-wrap: wrap;
 	background-color: #333;
 	align-items: center;

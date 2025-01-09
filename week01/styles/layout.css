@@ -1,0 +1,83 @@
+/*WEBSITE GRID STRUCTURE*/
+
+body {
+    display: grid;
+    height: 100vh;
+    grid-template: auto 1fr auto / auto 1fr auto;
+    background-color:#f0f0f0;
+    background: #b0c4de;
+    margin:0px;
+  }
+header {
+    background: #4682b4;
+    padding: 2rem;
+    grid-column: 1 / 4;
+  }
+.left-sidebar {
+  background: #b0c4de;
+  grid-column: 1 / 2;
+}
+main {
+  background: #b0c4de;
+  grid-column: 2 / 3;
+}
+.right-sidebar {
+  background: #b0c4de;
+  grid-column: 3 / 4;
+}
+footer {
+  background: #4682b4;
+  padding: 2rem;
+  text-align: center;
+  grid-column: 1 / 4;
+}
+.left-sidebar,
+.right-sidebar {
+  padding: 1rem;
+}
+
+/*END OF WEBSITE GRID STRUCTURE*/
+
+
+/*NAVIGATION BAR*/
+nav {
+	margin: 0 auto 2rem;
+	max-width: 90vw;
+}
+.navigation {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #333;
+	align-items: center;
+}
+.navigation li {
+	flex: 1 1 auto;
+    border: 1px solid rgb(0 0 0 / .2);
+}
+.navigation a {
+	display: block;
+	color: #eee;
+	padding: 0.75rem;
+	text-decoration: none;
+	text-align: center;
+}
+
+.navigation a:hover {
+	font-weight: 700;
+	text-decoration: underline;
+	text-decoration-color: yellow;
+}
+
+/*END OF NAVIGATION BAR*/
+
+/*HEADER MOD*/
+
+h1 {
+	text-align: center;
+	background-color: rgb(0 110 182 / 1);
+	padding: 0.5rem;
+	color: #fff;
+}
+
+/*END OF HEADER MOD*/

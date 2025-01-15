@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Parkinsans:wght@300..800&display=swap');
+
 /*WEBSITE GRID STRUCTURE*/
 
 body {
@@ -20,6 +22,7 @@ header {
 main {
   background: #ffffff;
   grid-column: 2 / 3;
+  max-width: 100%;
 }
 .right-sidebar {
   background: #ffffff;
@@ -77,7 +80,7 @@ h1 {
 	color: #fff;
 }
 
-.studentname {
+.WDD131BryanMalpartida {
   color: #d8d658;
   font-size: xx-large;
 }

@@ -18,6 +18,7 @@ const today = new Date();
 //print
 year.innerHTML = `<span class="highlight">${today.getFullYear()}</span>`;
 
-const studentname = document.getElementById('studentname');
-
-studentname.innerHTML = 'WDD 131: Dynamic Web Fundamentals - <span class="studentname">Bryan Malpartida</span>';
+//Name on header variable
+const studentname = document.getElementById('WDD131BryanMalpartida');
+//Name on header custom
+studentname.innerHTML = 'WDD 131: Dynamic Web Fundamentals - <span class="WDD131BryanMalpartida">Bryan Malpartida</span>';

@@ -1,0 +1,160 @@
+/*WEBSITE GRID STRUCTURE*/
+
+body {
+    display:grid;
+    height: 100vh;
+    grid-template: auto 1fr auto / 0.5fr 1fr 0.5fr;
+    background-color:#f0f0f0;
+    background: #68717c;
+    margin:0px;
+    font-family: "Oswald", serif;
+  }
+header {
+    background: rgb(9, 40, 61);
+    grid-column: 1 / 4; 
+  }
+.left-sidebar {
+  background: #ffffff;
+  grid-column: 1 / 2;
+}
+main {
+  background: #ffffff;
+  grid-column: 2 / 3;
+}
+.right-sidebar {
+  background: #ffffff;
+  grid-column: 3 / 4;
+}
+footer {
+  background: rgb(9, 40, 61);
+  padding: 2rem;
+  text-align: center;
+  grid-column: 1 / 4;
+  color: white;
+}
+.left-sidebar,
+.right-sidebar {
+  padding: 1rem;
+}
+/* END OF WEBSITE GRID STRUCTURE*/
+
+/*NAVIGATION BAR*/
+nav {
+	margin:0px;
+}
+.navigation {
+	list-style: none;
+	display:flex;
+	flex-wrap: wrap;
+	background-color: #333;
+	align-items: center;
+}
+.navigation li {
+	flex: 1 1 auto;
+}
+.navigation a {
+	display: block;
+	color: #eee;
+	padding: 0.75rem;
+	text-decoration: none;
+	text-align: center;
+}
+
+.navigation a:hover {
+	font-weight: 700;
+  background-color: #424242;
+
+}
+
+/*END OF NAVIGATION BAR*/
+
+/*HEADER EDIT*/
+
+h1 {
+	text-align: center;
+	background-color: rgb(9, 40, 61);
+	padding: 0.5rem;
+	color: #fff;
+}
+
+.studentname {
+  color: #d8d658;
+  font-size: xx-large;
+}
+
+/*END OF HEADER EDIT*/
+
+/*MAIN CONTENT*/
+
+.about-me h1 {
+  margin: 20px;
+  border-radius: 10px;
+}
+.country {
+  display: flex;
+  background-color: white;
+  padding:20px; 
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+.description {
+  flex: 1; 
+  margin-right: 20px;
+}
+.photo {
+  width: 150px; 
+  height: 150px; 
+  background-color: #ccc; 
+  border-radius: 8px;
+}
+.sub-title {
+margin-top: 20px;
+text-decoration: underline; 
+text-align: center;
+}
+.flag {
+width: 160px; 
+height: 100px; 
+background-color: #ccc; 
+border-radius: 4px;
+margin-right: 10px; 
+}
+.brief-description {
+display: flex;
+align-items: center; 
+}
+
+.photo-name {
+margin-top: 5px; 
+font-size: 14px; 
+color: #555; 
+}
+
+/*END OF MAIN CONTENT*/
+
+/*FOOTER EDIT*/
+
+#year{
+font-size: medium;
+}
+
+#lastModified{
+  font-size: medium;
+  color: #d8d658;
+}
+
+.highlight {
+	color: rgb(255, 255, 255);
+	font-weight: 400;
+
+}
+/*END OF FOOTER EDI*/
+
+
+
+
+
+
+
+

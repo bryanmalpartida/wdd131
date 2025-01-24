@@ -67,7 +67,7 @@
         color: white;
         background-color: rgb(9, 40, 61);
         grid-column: 1 / 4; 
-        padding:20px;
+        padding:10px 30px;
     }
 
     .photos {

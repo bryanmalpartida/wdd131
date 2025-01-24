@@ -1,0 +1,167 @@
+body{
+    display:grid;
+    height: 100vh;
+    grid-template: auto 1fr auto / 0.5fr 1fr 0.5fr;
+    font-family: "Roboto", serif;
+    background-color: rgb(255, 255, 255);
+    margin:0;
+}
+
+header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    color: white;
+    background-color: rgb(9, 40, 61);
+    grid-column: 1 / 4; 
+}
+
+.left-sidebar {
+    background: #ffffff;
+    grid-column: 1 / 2;
+  }
+
+main {
+    background-color: #ffffff;
+    grid-column: 2 / 3;
+    width: 100%;
+   
+}
+
+.right-sidebar {
+    background: #ffffff;
+    grid-column: 3 / 4;
+  }
+
+footer {
+    text-align: center;
+    color: white;
+    font-size: large;
+    padding:15px;
+    background-color: rgb(9, 40, 61);
+    grid-column: 1 / 4;
+  }
+
+.left-sidebar,
+.right-sidebar {
+  padding: 1rem;
+}
+
+/*NAVIGATION BAR*/
+
+nav {
+    margin:0px;
+}
+
+
+
+#navtitle{
+    margin: auto 30px;
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+    font-size: x-large;
+    
+}
+
+.navigation a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 1px 60px;  
+    transition: transform 0.3s;
+}
+
+.navigation a:hover {
+    transform: scale(1.20);
+}
+
+/*hamburguer*/
+
+
+.hamburger {
+    
+    display: none; 
+    cursor: pointer;
+}
+
+.bar {
+    display:grid;
+    width:25px;
+    height:3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color:white;
+}
+
+/*MAIN*/
+
+
+#gallerytitle{
+    text-align: center;
+    font-size: xx-large;
+	background-color: rgb(255, 255, 255);
+	padding: 0.5rem;
+	color: #000000;
+    font-weight: 700;
+    border-bottom: 1px solid #777; 
+}
+.photos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px 30px;
+}
+
+figure {
+    width: 200px;
+    height: 240px;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+figure:hover {
+    transform: scale(1.05);
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+
+figcaption {
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+
+/*FOOTER/*
+/*FOOTER EDIT*/
+
+#year{
+font-size: large;
+}
+ 
+#lastModified{
+font-size: small;
+color: #ffffff;
+}
+    
+.highlight {
+color: rgb(255, 255, 255);
+font-weight: 400;
+    
+} 
+
+p{
+margin:0;
+}
+/*END OF FOOTER EDI*/

@@ -43,7 +43,7 @@
     .navigation{
         position:fixed;
         left:-120%;
-        top:40px;
+        top:30px;
         gap:0;
         flex-direction:column;
         background-color:rgb(9, 40, 61);

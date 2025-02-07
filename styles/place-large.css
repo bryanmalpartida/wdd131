@@ -1,5 +1,6 @@
 @media screen and (max-width: 488px){
     body{
     background-image: url('/images/otherangle.webp');
+    background-repeat: no-repeat;
     }
 }

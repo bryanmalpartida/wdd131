@@ -4,15 +4,11 @@ body {
     display:grid;
     height: 100vh;
     grid-template: auto 1fr auto / 0.5fr 1fr 0.5fr;
-    background-color:#f0f0f0;
-    background: #68717c;
     margin:0px;
     font-family: "Oswald", serif;
     background-image: url('/images/peruvianruin.webp');
     background-position: center;
     background-size: cover;
-    
- 
   }
 header {
     background: #003d5b;
@@ -42,11 +38,38 @@ footer {
   padding: 1rem;
 }
 
-.left-sidebar,
-.right-sidebar,main {
+/* END OF WEBSITE GRID STRUCTURE*/
+.containerh2{
+  background-color: rgb(196, 140, 21);
+  border-radius: 3px;
+}
+
+h2{
+  margin:20px;
+}
+
+.containerleft,.containerright{
+  background-color: white;
+  padding:10px;
+  opacity:0.7 ;
+  text-shadow: 0 0 0 black;
+  border-radius: 3px;
+}
+.containerleft{
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.containerright{
+  margin-top: 380px;
+  margin-right:20px;
+}
+.data-box{
+
+}
+.weather-box {
+  
   
 }
-/* END OF WEBSITE GRID STRUCTURE*/
 
 /*HEADER EDIT*/
 
@@ -64,6 +87,9 @@ h1 {
 }
 
 /*END OF HEADER EDIT*/
+
+
+
 
 /*FOOTER EDIT*/
 

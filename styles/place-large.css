@@ -1,6 +1,85 @@
-@media screen and (max-width: 488px){
-    body{
-    background-image: url('/images/otherangle.webp');
+@media screen and (max-width: 910px){
+    main{
+    background-image: url('/images/lima2.webp');
     background-repeat: no-repeat;
+    
     }
+    main img{
+        display:block;
+        background-repeat: no-repeat;
+    }
+    body{
+        grid-template: auto auto auto auto / 1fr;
+        margin:0px;
+        background:none
+        
+        
+    }
+    header {
+        grid-column: 1 / 2; 
+    }
+
+    main {
+        grid-column: 1 / 2; 
+        grid-row: 2 / 3; 
+    }
+
+    .left-sidebar {
+        grid-column: 1 / 2; 
+        grid-row: 3 / 4; 
+        margin: 10px 0; 
+    }
+
+    .right-sidebar {
+        grid-column: 1 / 2; 
+        grid-row: 4 / 5; 
+        margin: 10px 0; 
+    }
+
+    footer {
+        grid-column: 1 / 2; 
+        grid-row: 5 / 6; 
+    }
+
+    .containerleft,
+    .containerright {
+        margin: 10px 0; 
+    }
+
+    .containerleft {
+        margin-top: 20px; 
+    }
+
+    .containerright {
+        margin-top: 20px; 
+    }
+
+    .containerh2{
+        
+        background-color: rgb(255, 255, 255);
+        border-radius: 3px;
+      }
+      
+    h2{
+    display:flex;
+    justify-content: center; 
+    align-items: center; 
+    font-size:38px;
+    padding:30px;
+    }
+    .weather-emoji {
+        display: none; 
+    }
+
+    .infodata{
+        margin-left: 250px;
+        margin-right: 250px;
+
+    }
+    .svg{
+        display: block;
+      }
 }
+
+
+

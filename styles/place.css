@@ -10,7 +10,7 @@ body {
     grid-template: auto 1fr auto / 0.5fr 1fr 0.5fr;
     font-family: var(--font);
     margin:var(--marg);
-    background-image: url('/images/lima.webp');
+    background-image: url('https://i.ibb.co/PvVy1xM0/lima.webp');
     background-position: center;
   
   }

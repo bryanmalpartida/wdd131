@@ -114,7 +114,7 @@ h1 {
 }
 
 .flag::after {
-  content: "🌊 🇵🇪"; /* Adds an arrow after the button text */
+  content: "🌊 🇵🇪"; 
   font-weight: bold;
   font-size: small;
 }

@@ -143,6 +143,7 @@ function createTempleCard(temple) {
     const p1 = document.createElement('p');
     const p2 = document.createElement('p');
     const p3 = document.createElement('p');
+    const p4 = document.createElement('p');
 
     img.src = temple.imageUrl;
     img.alt = temple.templeName;
@@ -151,11 +152,13 @@ function createTempleCard(temple) {
     p1.textContent = temple.templeName;
     p1.classList.add('temple-name'); 
     p2.textContent = temple.location;
-    p3.textContent = `Dedicated: ${temple.dedicated}, Area: ${temple.area} sq ft`;
+    p3.textContent = `Dedicated: ${temple.dedicated},`
+    p4.textContent = `Area: ${temple.area} sq ft`;
 
     figcaption.appendChild(p1);
     figcaption.appendChild(p2);
     figcaption.appendChild(p3);
+    figcaption.appendChild(p4);
     figure.appendChild(img);
     figure.appendChild(figcaption);
 

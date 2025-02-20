@@ -58,6 +58,25 @@ h2{
 }
 
 
+.button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    margin: 0.5rem;
+    transition: background-color 0.3s ease;
+    
+  }
+
+  .button:hover {
+    background-color: #555;
+  }
+
+
+
+
 
 /*NAVIGATION BAR*/
 
@@ -110,10 +129,39 @@ nav {
     background-color:white;
 }
 
+textarea {
+    width: 50%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
 
+button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    margin: 0.5rem;
+    transition: background-color 0.3s ease;  
+    }
+    
+button:hover{
+    background-color: #555;
+    }
+    
+form {  
+    padding: 4px;
+    } 
 
-
-
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: "Bebas Neue", serif;
+    }
 
 
 /*FOOTER/*

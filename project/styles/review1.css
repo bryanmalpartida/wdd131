@@ -24,7 +24,7 @@ header {
 }
 
 main {
-  background-color: #808080;
+  background-color: #bebebe;
   color:#1A1A1A;
   grid-column: 2 / 3;
   width: 100%;
@@ -50,7 +50,7 @@ footer {
 .right-sidebar {
 padding: 1rem;
 color:#1A1A1A;
-background: #808080;
+background: #bebebe;
 }
 
 footer {

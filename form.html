@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Forms</title>
+        <title>Forms Project</title>
         <link rel="stylesheet" href="styles/form.css">
         <link rel="stylesheet" href="styles/form-large.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,28 +24,36 @@
 
     <main>
         <form action="review.html" method="get">
-            <!-- Product Name -->
             <label for="product">Product Name:</label>
             <select id="product" name="product" required>
               <option value="" disabled selected>Select a Product ...</option>
-              <!-- Options will be populated by JavaScript -->
             </select>
       
-            <!-- Overall Rating -->
             <fieldset>
               <legend>Overall Rating:</legend>
-              <label><input type="radio" name="rating" value="1" required> ☆</label>
-              <label><input type="radio" name="rating" value="2"> ☆☆</label>
-              <label><input type="radio" name="rating" value="3"> ☆☆☆</label>
-              <label><input type="radio" name="rating" value="4"> ☆☆☆☆</label>
-              <label><input type="radio" name="rating" value="5"> ☆☆☆☆☆</label>
+              <div class="star-rating">
+                <input type="radio" name="stars" id="star-a" value="5"/>
+                <label for="star-a"></label>
+          
+                <input type="radio" name="stars" id="star-b" value="4"/>
+                <label for="star-b"></label>
+            
+                <input type="radio" name="stars" id="star-c" value="3"/>
+                <label for="star-c"></label>
+            
+                <input type="radio" name="stars" id="star-d" value="2"/>
+                <label for="star-d"></label>
+            
+                <input type="radio" name="stars" id="star-e" value="1"/>
+                <label for="star-e"></label>
+          </div>
             </fieldset>
       
-            <!-- Date of Installation -->
+            
             <label for="installation-date">Date of Installation:</label>
             <input type="date" id="installation-date" name="installation-date" required>
       
-            <!-- Useful Features -->
+           
             <fieldset>
               <legend>Useful Features:</legend>
               <label><input type="checkbox" name="features" value="durability"> Durability</label>
@@ -54,16 +62,16 @@
               <label><input type="checkbox" name="features" value="design"> Design</label>
             </fieldset>
       
-            <!-- Written Review -->
+           
             <label for="review">Written Review:</label>
             <textarea id="review" name="review" rows="4"></textarea>
       
-            <!-- User Name -->
+          
             <label for="username">User Name:</label>
             <input type="text" id="username" name="username">
       
-            <!-- Submit Button -->
-            <input type="submit" value="Submit Review">
+            
+            <input type="submit" value="Submit">
           </form>
     </main>
 

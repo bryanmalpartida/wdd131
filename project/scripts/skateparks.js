@@ -45,7 +45,7 @@ const skateparks = [
       name: "Tumbes",
       location: "Tumbes",
       yearBuilt: 2019, 
-      image: "tumbes.webp",
+      image: "TUMBES.webp",
     },
     {
       name: "Manchay",

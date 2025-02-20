@@ -38,11 +38,11 @@ const events = [
       id: "event-1",
       images: [
         {
-          src: "/images/streetleague.webp",
+          src: "images/streetleague.webp",
           alt: "Angelo Caro competing in Street League",
         },
         {
-          src: "/images/tokyo.webp",
+          src: "images/tokyo.webp",
           alt: "Angelo Caro performing a trick",
         },
       ],
@@ -51,7 +51,7 @@ const events = [
       id: "event-2",
       images: [
         {
-          src: "/images/DC.webp",
+          src: "images/DC.webp",
           alt: "US skateboarders visiting Perú",
         },
         {

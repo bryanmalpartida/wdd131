@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forms</title>
+        <link rel="stylesheet" href="styles/form.css">
+        <link rel="stylesheet" href="styles/form-large.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Parkinsans:wght@300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&family=Parkinsans:wght@300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Luckiest+Guy&family=Oswald:wght@200..700&family=Parkinsans:wght@300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <meta name='description' content="Explore a stunning collection of temple photographs showcasing architectural beauty and cultural heritage. Join Bryan Malpartida on this visual journey">
+        <meta name="author" content="Bryan Malpartida">
+        <script src="scripts/form.js" defer></script>
+    </head>
+<body>
+    <header>
+        <h1 id="navtitle">Product Review</h1>
+    </header>
+
+    <div class="left-sidebar"></div>
+
+    <main>
+        <form action="review.html" method="get">
+            <!-- Product Name -->
+            <label for="product">Product Name:</label>
+            <select id="product" name="product" required>
+              <option value="" disabled selected>Select a Product ...</option>
+              <!-- Options will be populated by JavaScript -->
+            </select>
+      
+            <!-- Overall Rating -->
+            <fieldset>
+              <legend>Overall Rating:</legend>
+              <label><input type="radio" name="rating" value="1" required> ☆</label>
+              <label><input type="radio" name="rating" value="2"> ☆☆</label>
+              <label><input type="radio" name="rating" value="3"> ☆☆☆</label>
+              <label><input type="radio" name="rating" value="4"> ☆☆☆☆</label>
+              <label><input type="radio" name="rating" value="5"> ☆☆☆☆☆</label>
+            </fieldset>
+      
+            <!-- Date of Installation -->
+            <label for="installation-date">Date of Installation:</label>
+            <input type="date" id="installation-date" name="installation-date" required>
+      
+            <!-- Useful Features -->
+            <fieldset>
+              <legend>Useful Features:</legend>
+              <label><input type="checkbox" name="features" value="durability"> Durability</label>
+              <label><input type="checkbox" name="features" value="ease-of-use"> Ease of Use</label>
+              <label><input type="checkbox" name="features" value="performance"> Performance</label>
+              <label><input type="checkbox" name="features" value="design"> Design</label>
+            </fieldset>
+      
+            <!-- Written Review -->
+            <label for="review">Written Review:</label>
+            <textarea id="review" name="review" rows="4"></textarea>
+      
+            <!-- User Name -->
+            <label for="username">User Name:</label>
+            <input type="text" id="username" name="username">
+      
+            <!-- Submit Button -->
+            <input type="submit" value="Submit Review">
+          </form>
+    </main>
+
+    <div class="right-sidebar"></div>
+
+
+    <footer>
+        <span id="year"></span> &copy; Bryan Malpartida Lima, Perú
+        <p></p>
+        <span id="lastModified"></span>      
+    </footer>
+
+</body>
+</html>

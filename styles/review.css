@@ -1,0 +1,119 @@
+body {
+    display: grid;
+    height: 100vh;
+    grid-template: auto 1fr auto / 0.1fr 1.8fr 0.1fr;
+    font-family: "Roboto", serif;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+header {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    color: white;
+    background-color: rgb(9, 40, 61);
+    grid-column: 1 / 4; 
+}
+
+.left-sidebar {
+    background: #ffffff;
+    grid-column: 1 / 2;
+  }
+
+  main {
+    background-color: #ffffff;
+    grid-column: 2 / 3;
+    width: 100%;
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+
+.right-sidebar {
+    background: #ffffff;
+    grid-column: 3 / 4;
+  }
+
+footer {
+    text-align: center;
+    color: white;
+    font-size: large;
+    padding:15px;
+    background-color: rgb(9, 40, 61);
+    grid-column: 1 / 4;
+  }
+
+.left-sidebar,
+.right-sidebar {
+  padding: 1rem;
+}
+
+
+#navtitle{
+    margin: auto 30px;
+}
+
+
+p {
+    font-size: 1.2rem;
+  }
+  
+#review-count {
+    
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+
+/* BUTTONS */
+.button {
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 0.5rem;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.back-button {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/*FOOTER/*
+/*FOOTER EDIT*/
+
+#year{
+    font-size: large;
+    }
+     
+    #lastModified{
+    font-size: small;
+    color: #ffffff;
+    }
+        
+    .highlight {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+        
+    } 
+    
+    p{
+    margin:0;
+    }
+    /*END OF FOOTER EDI*/

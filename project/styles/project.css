@@ -16,7 +16,8 @@ header {
     align-items: center; 
     color: #00BFFF;
     background-color: #1A1A1A;
-    grid-column: 1 / 4; 
+    grid-column: 1 / 4;
+    padding: 20px; 
 }
 
 .left-sidebar {

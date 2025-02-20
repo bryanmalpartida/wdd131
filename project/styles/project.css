@@ -1,0 +1,140 @@
+/*STRUCTURE*/
+
+body {
+    display: grid;
+    height: 100vh;
+    grid-template: auto 1fr auto / 0.1fr 1.8fr 0.1fr;
+    font-family: "Roboto", serif;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+header {
+    display: flex;
+    font-family: "Bebas Neue", serif; 
+    justify-content: space-between; 
+    align-items: center; 
+    color: #00BFFF;
+    background-color: #1A1A1A;
+    grid-column: 1 / 4; 
+}
+
+.left-sidebar {
+    grid-column: 1 / 2;
+  }
+
+  main {
+    background-color: #808080;
+    color:#1A1A1A;
+    grid-column: 2 / 3;
+    width: 100%;
+    padding: 20px; 
+    box-sizing: border-box;
+     
+}
+
+.right-sidebar {
+    grid-column: 3 / 4;
+  }
+
+footer {
+    text-align: center;
+    color: #00BFFF;
+    font-size: large;
+    padding:15px;
+    background-color: #1A1A1A;
+    grid-column: 1 / 4;
+  }
+
+.left-sidebar,
+.right-sidebar {
+  padding: 1rem;
+  color:#1A1A1A;
+  background: #808080;
+}
+
+h2{
+ font-family: "Luckiest Guy", serif;
+}
+
+
+
+/*NAVIGATION BAR*/
+
+nav {
+    margin:0px;
+}
+
+
+
+#navtitle{
+    margin: auto 30px;
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+    font-size: x-large;
+    
+}
+
+.navigation a {
+    display: block;
+    text-decoration: none;
+    color: #00BFFF;
+    padding: 1px 60px;  
+    transition: transform 0.3s;
+}
+
+.navigation a:hover {
+    transform: scale(1.20);
+    color:#39FF14;
+}
+
+/*hamburguer*/
+
+
+.hamburger {
+    
+    display: none; 
+    cursor: pointer;
+}
+
+.bar {
+    display:grid;
+    width:25px;
+    height:3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color:white;
+}
+
+
+
+
+
+
+
+/*FOOTER/*
+/*FOOTER EDIT*/
+
+#year{
+    font-size: large;
+    }
+     
+    #lastModified{
+    font-size: small;
+    color: #00BFFF;
+    }
+        
+    .highlight {
+    color: #00BFFF;
+    font-weight: 400;
+        
+    } 
+    
+    p{
+    margin:0;
+    }
+    /*END OF FOOTER EDI*/

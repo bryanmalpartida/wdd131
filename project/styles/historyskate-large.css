@@ -1,0 +1,53 @@
+
+@media (max-width: 768px) {
+    .events-container {
+      grid-template-columns: 1fr;
+    }
+
+    h2{
+        display:flex;
+        justify-content: center; 
+        align-items: center; 
+        font-size:38px;
+        padding:30px;
+        }
+        
+    .hamburger {
+     display: block; 
+    }
+    
+    .hamburger.active .bar:nth-child(2){
+        opacity:0;}
+    
+    .hamburger.active .bar:nth-child(1){
+     transform: translateY(8px) rotate(45deg);
+     }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    
+    .navigation{
+        position:fixed;
+        left:-120%;
+        top:60px;
+        gap:0;
+        flex-direction:column;
+        background-color:rgb(93, 112, 124);
+        width:100%;
+        text-align:center;
+        justify-content: end;
+        transition:0.3s;
+        margin:20px; 
+        }
+    
+    .nav-item{
+        margin: 16px 0;
+            
+    }
+    
+    .navigation.active{
+        left:0;
+    
+    }
+    
+    }

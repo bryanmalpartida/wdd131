@@ -17,6 +17,7 @@ header {
     color: #00BFFF;
     background-color: #1A1A1A;
     grid-column: 1 / 4; 
+    padding:20px;
 }
 
 .left-sidebar {
@@ -135,3 +136,36 @@ nav {
     margin:0;
     }
     /*END OF FOOTER EDI*/
+
+
+    /* BRAND CARDS */
+#brands-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .brand-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .brand-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .brand-card h3 {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+  }
+  
+  .brand-card p {
+    padding: 0 1rem 1rem;
+    color: #555;
+  }

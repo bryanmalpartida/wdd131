@@ -32,3 +32,58 @@ const today = new Date();
 //print
 year.innerHTML = `<span class="highlight">${today.getFullYear()}</span>`;
 
+// EVENTS
+const events = [
+    {
+      id: "event-1",
+      images: [
+        {
+          src: "/images/streetleague.webp",
+          alt: "Angelo Caro competing in Street League",
+        },
+        {
+          src: "/images/tokyo.webp",
+          alt: "Angelo Caro performing a trick",
+        },
+      ],
+    },
+    {
+      id: "event-2",
+      images: [
+        {
+          src: "/images/DC.webp",
+          alt: "US skateboarders visiting Perú",
+        },
+        {
+          src: "images/shane.gif",
+          alt: "Skateboarding session with US professionals",
+        },
+      ],
+    },
+  ];
+  
+  // USING FUNCTIONS TO INSERT IMAGES
+  function insertEventImages() {
+    events.forEach((event) => {
+      const eventCard = document.getElementById(event.id);
+  
+      // CORRESPODING IMAGE
+      event.images.forEach((image) => {
+        // ELEMENT
+        const img = document.createElement("img");
+        img.src = image.src;
+        img.alt = image.alt;
+        img.loading = "lazy"; 
+        img.style.width = "50%";
+        img.style.borderRadius = "8px";
+        img.style.marginBottom = "1rem";
+  
+        // IMAGES ABOVE CARD
+        eventCard.prepend(img);
+      });
+    });
+  }
+  
+  // CALL FUNCTION
+  insertEventImages();
+

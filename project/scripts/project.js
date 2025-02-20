@@ -36,40 +36,11 @@ year.innerHTML = `<span class="highlight">${today.getFullYear()}</span>`;
 
 
 
-// Example: Dynamic Content for Peruvian Skate Brands
-const brands = [
-    { name: "Brand A", products: ["Skateboards", "Clothing"], logo: "brand-a.jpg" },
-    { name: "Brand B", products: ["Clothing"], logo: "brand-b.jpg" },
-  ];
-  
-  const brandContainer = document.getElementById("brand-container");
-  
-  brands.forEach((brand) => {
-    const card = `
-      <div class="brand-card">
-        <img src="images/${brand.logo}" alt="${brand.name}" loading="lazy">
-        <h3>${brand.name}</h3>
-        <p>Products: ${brand.products.join(", ")}</p>
-      </div>
-    `;
-    brandContainer.innerHTML += card;
-  });
-  
-  // Example: localStorage Visitor Counter
-  let visitCount = localStorage.getItem("visitCount") || 0;
-  visitCount++;
-  localStorage.setItem("visitCount", visitCount);
-  document.getElementById("visit-count").textContent = `You've visited this site ${visitCount} times.`;
-  
-  // Example: Conditional Branching
-  const user = { name: "Skater", age: 20 };
-  
-  if (user.age >= 18) {
-    console.log(`${user.name} is eligible for advanced skateboarding lessons.`);
-  } else {
-    console.log(`${user.name} is eligible for beginner lessons.`);
-}
 
+  
+
+  
+ 
 
 
 
